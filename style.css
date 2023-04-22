@@ -1,0 +1,231 @@
+*{
+    font-family: poppins;
+}
+body{
+    background: lightskyblue;
+}
+.container{
+    font-size: 15px;
+    color: blue;
+}
+.logo-name{
+    text-align: center;
+    padding-top: 10px;
+    background-color: deepskyblue;
+}
+
+.logo-name>img{
+  width: 18vh;
+  animation-name: bounce;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+}
+
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: scale(0.7) ;
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1) ;
+  }
+  50% {
+    transform: scale(0.8) ;
+  }
+  75% {
+    transform: scale(0.9) ;
+  }
+  100% {
+    transform: scale(1) ;
+  }
+}
+
+.container2{
+    display:grid;
+    place-items: center;
+}
+
+.name{
+    text-align: center;
+    background-color: deepskyblue;
+    padding-top: 10px;
+    font-family: serif;
+    font-family: poppins;
+   
+}
+.clg{
+    font-size: 50px;
+}
+.address{
+    font-size: 30px;
+    font-family: poppins;
+}
+.code{
+    text-align: center;
+    background-color: deepskyblue;
+    margin: 0px;
+    color:green ;
+    position: relative;
+}
+.nav {
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.btn{
+  background-color: lightgreen;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: green;
+  color: greenyellow;
+}
+.phone{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: skyblue;
+}
+.main3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  background: skyblue;
+}
+.campustour{
+  padding: 10px;
+}
+.campustourh1{
+  text-align: justify;
+  font-style: italic;
+  margin: 20px;
+  background-color: slategrey;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10vh;
+
+}
+.campustourh{
+  text-align: justify;
+  font-style: italic;
+  margin: 20px;
+  background-color: slategrey;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+   margin-top: 10vh;
+ 
+}
+.ug_courses{
+    background: skyblue;
+     text-align: center;
+ }
+ .ece{
+    background: linear-gradient(orange  35%,yellow);
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: serif;
+    margin:10px 10% 10px 10px;
+    text-align: center;
+    font-family: poppins;
+ }
+.cse{
+    background: linear-gradient(orange  35%,yellow);
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+   font-family: poppins;
+    margin:10px 10% 10px 10px;
+    text-align: center;
+}
+.eee{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+   font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange  35%,yellow);
+    text-align: center;
+}
+.aids{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange  35%,yellow);
+    text-align: center;
+}
+.bio-medical{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange 35%,yellow);
+    text-align: center;
+}
+.civil{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange 35%,yellow);
+    text-align: center;
+}
+.it{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange 35%,yellow);
+    text-align: center;
+
+}
+.mech{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange 35%,yellow);
+    text-align: center;
+}
+.chemical{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange 35%,yellow);
+    text-align: center;
+
+}
+.biotechnology{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange 35%,yellow);
+    text-align: center;
+
+}
+.csbs{
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    font-family: poppins;
+    margin:10px 10% 10px 10px;
+    background: linear-gradient(orange 35%,yellow);
+    text-align: center;
+
+}
+.a{
+    align-items: center;
+}
+
+.container2{
+     text-align: justify;
+}
+

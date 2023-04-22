@@ -1,0 +1,77 @@
+.placeimg{
+     margin:10px 30px 26px 565px;
+    border-style: inset;
+    border-color: rgb(67, 10, 88);
+    border-radius: 15px;
+    width:30vw;
+}
+.main{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.topic{
+    text-align: center;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    margin: 25px 500px 10px 580px;
+    padding:7px 10px 7px 10px;
+    display: block;
+}
+
+@keyframes example{
+    0%{background-color: red;}
+    15%{background-color: yellow;}
+    30%{background-color: orange;}
+    45%{background-color: mediumseagreen;}
+    60%{background-color: yellow;}
+    80%{background-color: aliceblue;}
+    100%{background-color: lightgrey;}
+}
+.main1{
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+    text-shadow: orange;
+    margin-left: 65px;
+}
+
+.img{
+    text-align: center;
+    margin-left: 420px;
+    position: relative;
+    width:50%;
+    height:30%;
+}
+body{
+    background: linear-gradient(45deg,lightgreen,white,limegreen);
+}
+
+@media only screen and (max-width:600px){
+.placeimg{
+    width: 100%;
+    margin-left: 100px;
+    position: relative;
+    align-items: center;
+}
+.img{
+    margin-left: 190px;
+}
+.main1{
+    margin-left: 160px;
+}
+.main{
+    margin-left: 160px;
+}
+
+.topic{
+    margin-left: 210px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+}
