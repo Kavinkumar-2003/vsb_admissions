@@ -51,7 +51,7 @@ body{
     background: linear-gradient(45deg,lightgreen,white,limegreen);
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:400px){
 .placeimg{
     width: 100%;
     margin-left: 100px;
@@ -73,5 +73,31 @@ body{
     text-align: center;
     position: relative;
     display: inline-block;
+}
+}
+
+@media only screen and (max-width:900px){
+.placeimg{
+    width: 100%;
+    margin-left: 160px;
+    position: relative;
+    align-items: center;
+}
+.img{
+    margin-left: 150px;
+}
+.main1{
+    margin-left: 160px;
+}
+.main{
+    margin-left: 160px;
+}
+
+.topic{
+    margin-left: 160px;
+    width:30vh;
+    text-align: center;
+    display: inline-block;
+    position: relative;
 }
 }
